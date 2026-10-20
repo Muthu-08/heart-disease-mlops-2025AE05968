@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Krittika/OneDrive/Desktop/heart-disease-mlops1/mlruns/1/models/m-cdc70d27d3f045afaf835d02eabf18ac/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.1
+model_id: m-cdc70d27d3f045afaf835d02eabf18ac
+model_size_bytes: 378450
+model_uuid: m-cdc70d27d3f045afaf835d02eabf18ac
+prompts: null
+run_id: cd5e3d8b495e4422bc255685307da3c0
+utc_time_created: '2026-10-20 15:58:49.725041'
